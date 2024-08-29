@@ -24,12 +24,12 @@ public class RunController {
     List<Run> findAll(){
         return runRepository.findAll();
     }
-    @GetMapping("/{id}")
-    Run findById(@PathVariable Integer id){
-        Optional<Run> run = runRepository.findById(id);
-        if(run.isEmpty()){
-            throw new ResponseStatusException(HttpStatus.NOT_FOUND);
-        }
-        return run.get();
-    }
+    // @GetMapping("/{id}")
+    // Run findById(@PathVariable Integer id){
+    //     Optional<Run> run = runRepository.findById(id);
+    //     if(run.isEmpty()){
+    //         throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+    //     }
+    //     return run.get();
+    // }
 }
