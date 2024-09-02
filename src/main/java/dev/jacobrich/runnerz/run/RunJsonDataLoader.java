@@ -16,9 +16,9 @@ public class RunJsonDataLoader implements CommandLineRunner {
 
     private static final Logger log = LoggerFactory.getLogger(RunJsonDataLoader.class);
     private final ObjectMapper objectMapper;
-    private final RunRepository runRepository;
+    private final JdbcClientRunRepository runRepository;
 
-    public RunJsonDataLoader(RunRepository runRepository, ObjectMapper objectMapper) {
+    public RunJsonDataLoader(JdbcClientRunRepository runRepository, ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
         this.runRepository = runRepository;
     }
