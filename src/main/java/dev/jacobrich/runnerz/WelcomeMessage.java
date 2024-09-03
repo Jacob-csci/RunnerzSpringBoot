@@ -1,12 +1,12 @@
-package dev.jacobrich.runnerz;
+// package dev.jacobrich.runnerz;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+// import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class WelcomeMessage {
+// @SpringBootApplication
+// public class WelcomeMessage {
 
-    public String getWelcomeMessage(){
-        return "Welcome to the Spring Boot Application";
+//     public String getWelcomeMessage(){
+//         return "Welcome to the Spring Boot Application";
 
-    }
-}
+//     }
+// }
